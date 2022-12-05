@@ -417,13 +417,11 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-#quotes-section content {
-  padding: 5rem 0;
-}
-
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -457,13 +455,14 @@ header .mobile {
 
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+  padding: 1.6rem 2rem;
 }
 
 footer .content {
   color: white;
   display: flex;
   font-size: .75rem;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 footer .copyright {
